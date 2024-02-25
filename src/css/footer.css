@@ -1,0 +1,25 @@
+.container-footer {
+  background-color: #ffc107;
+  user-select: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid black;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.footer li {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
