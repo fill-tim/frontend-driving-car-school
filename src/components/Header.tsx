@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../css/header.css"
+import "../styles/header.css"
 
 
 
@@ -25,8 +25,8 @@ export function Header() {
                             <a href="/">Главная</a>
                             <a>О нас</a>
                             <a>Инструктора</a>
-                            <a>Расписание</a>
-                            <a>Авторизоваться</a>
+                            <a href="/schedule">Расписание</a>
+                            <a href="/login">Авторизоваться</a>
                             <a href="/register">Зарегистироваться</a>
                         </ul>
                     )}

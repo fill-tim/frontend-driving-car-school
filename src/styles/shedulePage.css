@@ -1,0 +1,74 @@
+.con {
+  background-color: #ffc107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  user-select: none;
+}
+
+.container-schedule-page {
+  height: 60%;
+  width: 50%;
+  /* border: 2px solid black; */
+  background-color: #f5bc12;
+  overflow-y: scroll;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 4px #dfb81e; 
+}
+
+.schedule-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-top: 0rem; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  /* padding-top: 0rem;
+  padding-bottom: 0rem; */
+  /* border: 2px solid black; */
+  border-radius: 10px;
+}
+
+.lesson-items {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  box-shadow: 1px 1px 4px 4px #9b7d08;
+  flex-basis: 33%;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+
+.test ::-webkit-scrollbar-track {
+  background: #ffca86;
+  border-radius: 15px;
+}
+
+/* ДЛЯ ДАТЫ ЗАНЯТИЯ */
+.test {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Ширина полосы прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Цвет ползунка */
+  border-radius: 15px;
+}
+
+/* Стиль для ползунка при наведении курсора */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Цвет ползунка при наведении */
+}
